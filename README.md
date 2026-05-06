@@ -30,12 +30,12 @@ python script/extract_commit.py find-closest feature main 2025-12-01
 
 and you will have some result like these: 
 
-> source_branch : feature
-> base_branch   : main
+> source_branch : feature<br />
+> base_branch   : main<br />
 > minimum_date  : 2025-12-01
 >
-> Closest pair:
->   source: c00297396415757cbceb00637031236b16af74a4 | 2026-02-10 07:40:51+00:00 | Pull request #326: hotfix: annoying feature
+> Closest pair:<br />
+>   source: c00297396415757cbceb00637031236b16af74a4 | 2026-02-10 07:40:51+00:00 | Pull request #326: hotfix: annoying feature<br />
 >   base  : e1c6bb74cff52edca6260775693e12c1dc8d33e4 | 2026-02-10 09:11:28+00:00 | Finally deployed for IN
 
 After that you need the latest commit of both branch. 
